@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .items
+    {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px;
+        height: 100px;
+
+    }
+    .item1{background:darkred;}
+    .item2{background: orange;
+     display: flex;
+
+    }
+    .item2 > .subitem
+    {
+        background: purple;
+        flex-grow: 1;
+        
+        margin: 5px;
+    }
+    .item3{background: red;}
+</style>
+<body>
+    <h1>flex- basic </h1>
+    <div class="container">
+        <div class="items item1">one</div>
+        <div class="items item2">two
+            <div class="subitem subitem1">sub</div>
+            <div class="subitem subitem1">sub</div>
+            <div class="subitem subitem1">sub</div>
+        </div>
+        <div class="items item3">three</div>
+    </div>
+</body>
+</html>

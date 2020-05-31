@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tab</title>
+	<style>
+		body{
+			padding: 0px;
+			margin: 0px;
+			font-family: serif;
+			background: #7f8;
+		}
+		.tab-wrap
+		{
+			width: 60%;
+			list-style: none;
+			padding: 0;
+			position: relative;
+			border: 1px solid black-;
+		}
+		.tab-wrap input[type='radio']
+   {
+		 position: absolute;
+		 top: -99999999px;
+		 left: -99999px;
+		}
+		.tab-wrap li
+		{
+			float: left;
+			display: block;
+		}
+		.tab-wrap label
+		{
+			background-color: orange;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+		.tab-wrap .tab-content
+		{
+			background: #fff;
+			padding: 20px;
+			border-radius: 0 3px 3px 3px;
+			position: absolute;
+			left: 50px;
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<ul class="tab-wrap">
+		<li>
+		  <input type="radio" id="tab-1" name="tab" checked>
+			<label for="tab-1">tab1</label>
+			<div class="tab-content">
+				<h2>tab 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo incidunt, voluptatem quod neque sequi eligendi rem, dolorum, ducimus autem itaque fugit possimus minima culpa eveniet. Earum voluptatem molestias sed illo repellendus itaque autem tempore. Quod laboriosam, temporibus ratione! Ad itaque saepe animi laudantium cum, culpa accusamus, dolorum blanditiis. Iusto, facilis!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deserunt, minus sequi eum perferendis officia voluptatibus quam odio sed cupiditate.</p>
+			</div>
+		</li>
+				<li>
+		  <input type="radio" id="tab-2" name="tab" >
+			<label for="tab-2">tab</label>
+			<div class="tab-content">
+				<h2>tab 2</h2>
+				<p>Lorem fdfasdfasfasdipsum dolor sit amet, consectetur adipisicing elit. Nemo incidunt, voluptatem quod neque sequi eligendi rem, dolorum, ducimus autem itaque fugit possimus minima culpa eveniet. Earum voluptatem molestias sed illo repellendus itaque autem tempore. Quod laboriosam, temporibus ratione! Ad itaque saepe animi laudantium cum, culpa accusamus, dolorum blanditiis. Iusto, facilis!</p>
+				<p>Lorem ipsum dolor scing elit. Dolor deseruerferendis officia voluptatibus quam odio sed cupiditate.</p>
+			</div>
+		</li>
+		<li>
+		  <input type="radio" id="tab-3" name="tab" >
+			<label for="tab-3">tab3</label>
+			<div class="tab-content">
+				<h2>tab 3</h2>
+				<p>Lorem fdfasdfasfasdipsum dolur  elit. Nemo incidunt, voluptatem quod neque sequi eligendi rem, dolorum, ducimus autem itaque fugit possimus minima culpa eveniet. Earum voluptatem molestias sed illo repellendus itaque autem tempore. Quod laboriosam, temporibus ratione! Ad itaque saepe animi laudantium cum, culpa accusamus, dolorum blanditiis. Iusto, facilis!</p>
+				<p>Lorem ipsum dolor scing elit. Dolor deseruerferendis officia voluptatibus quam odio sed cupiditate.</p>
+			</div>
+		</li>
+	</ul>
+</body>
+</html>
